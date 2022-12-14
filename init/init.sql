@@ -1,0 +1,3 @@
+CREATE USER storeadmin WITH PASSWORD 'pass';
+CREATE DATABASE pearstore;
+GRANT ALL PRIVILEGES ON DATABASE pearstore TO storeadmin;
